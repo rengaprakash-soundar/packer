@@ -1,0 +1,22 @@
+{
+  "builders": [
+  {
+    "type": "azure-arm",
+    "resource_group_name": "thala",
+    "storage_account": "thala123",
+    "subscription_id": "9f1b33c1-69b8-4911-881a-8d5347e9e5e8",
+    "tenant_id": "3a09d19a-0638-4242-86bb-4f3f2a611d2d",
+    "capture_container_name": "images",
+    "capture_name_prefix": "packer",
+    "os_type": "Linux",
+    "image_publisher": "Canonical",
+    "image_offer": "UbuntuServer",
+    "image_sku": "14.04.4-LTS",
+    "azure_tags": {
+      "dept": "engineering"
+    },
+    "location": "southindia",
+    "vm_size": "Standard_B1s"
+}
+ ]
+   }
